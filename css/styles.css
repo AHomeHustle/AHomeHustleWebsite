@@ -534,3 +534,63 @@ p {
     background: #f8fafc;
 
 }
+
+/* =========================
+   Industries
+========================= */
+
+#industries {
+
+    padding: var(--space-xl) 0;
+
+    background: var(--color-surface);
+
+}
+
+.industry-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: var(--space-md);
+
+}
+
+.industry-card {
+
+    background: white;
+
+    padding: 32px;
+
+    border-radius: var(--radius-lg);
+
+    border: 1px solid var(--color-border);
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+
+}
+
+.industry-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow: var(--shadow-card);
+
+}
+
+.industry-icon {
+
+    font-size: 2rem;
+
+    margin-bottom: var(--space-sm);
+
+}
+
+.industry-card h3 {
+
+    margin-bottom: 12px;
+
+}

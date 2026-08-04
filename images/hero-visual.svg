@@ -207,17 +207,4 @@
     fill="url(#mainGradient)"
 />
 
-
-<circle
-    cx="425"
-    cy="420"
-    r="9"
-    fill="#8B5CF6"
-/>
-
-<path
-    d="M410 448 C410 435 440 435 440 448 Z"
-    fill="#8B5CF6"
-/>
-
 </svg>

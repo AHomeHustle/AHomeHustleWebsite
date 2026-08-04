@@ -28,3 +28,40 @@ h2 {
 p {
     color: var(--color-text-secondary);
 }
+
+#hero {
+    padding: var(--space-xl) 0;
+    background:
+        radial-gradient(
+            circle at top right,
+            rgba(99,102,241,0.15),
+            transparent 40%
+        );
+}
+
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+    align-items: center;
+}
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+
+.eyebrow {
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+
+.hero-image img {
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-card);
+}

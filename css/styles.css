@@ -599,3 +599,100 @@ p {
     margin-bottom: 12px;
 
 }
+
+/* =========================
+   Footer
+========================= */
+
+footer {
+
+    background: #111827;
+
+    color: white;
+
+    padding-top: 80px;
+
+}
+
+
+.footer-grid {
+
+    display: grid;
+
+    grid-template-columns: 2fr 1fr 1fr;
+
+    gap: var(--space-lg);
+
+    padding-bottom: 60px;
+
+}
+
+
+.footer-logo {
+
+    width: 56px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.footer-brand p {
+
+    margin-top: 20px;
+
+    color: rgba(255,255,255,0.7);
+
+}
+
+
+footer h4 {
+
+    margin-bottom: 20px;
+
+}
+
+
+footer ul {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+}
+
+
+footer a {
+
+    color: rgba(255,255,255,0.7);
+
+    transition: color .2s ease;
+
+}
+
+
+footer a:hover {
+
+    color: white;
+
+}
+
+
+.footer-bottom {
+
+    border-top: 1px solid rgba(255,255,255,0.08);
+
+    padding: 24px 0;
+
+}
+
+
+.footer-bottom p {
+
+    text-align: center;
+
+    color: rgba(255,255,255,0.6);
+
+}

@@ -130,3 +130,44 @@ p {
 .main-nav a:hover {
     color: var(--color-text);
 }
+
+/* =========================
+   Buttons
+========================= */
+
+.button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 28px;
+
+    border-radius: 999px;
+
+    font-weight: 600;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+
+.button.primary {
+
+    background: var(--color-primary);
+
+    color: white;
+
+    box-shadow:
+        0 10px 25px rgba(99,102,241,0.25);
+}
+
+
+.button.primary:hover {
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 15px 35px rgba(99,102,241,0.35);
+}

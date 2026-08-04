@@ -1,33 +1,30 @@
-/* Main Styles */
 body {
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-base);
-    line-height: var(--line-height-base);
-    color: var(--text-color);
-    background-color: var(--background-color);
+    font-family: var(--font-main);
+    background: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
 }
 
-main {
-    max-width: 1200px;
+
+.container {
+    width: min(1120px, 90%);
     margin: 0 auto;
-    padding: var(--spacing-xl);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
-    margin-bottom: var(--spacing-md);
-}
 
 h1 {
-    font-size: 2.5rem;
+    font-size: clamp(3rem, 5vw, 4.5rem);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
 }
+
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
 }
 
-h3 {
-    font-size: 1.5rem;
-}
 
-/* Add more styles as needed */
+p {
+    color: var(--color-text-secondary);
+}

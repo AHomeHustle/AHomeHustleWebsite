@@ -171,3 +171,18 @@ p {
     box-shadow:
         0 15px 35px rgba(99,102,241,0.35);
 }
+
+.gradient-text {
+
+    background:
+        linear-gradient(
+            90deg,
+            #6366f1,
+            #8b5cf6
+        );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    color: transparent;
+}

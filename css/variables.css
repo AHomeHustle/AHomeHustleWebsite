@@ -1,33 +1,42 @@
-/* CSS Variables */
 :root {
-    /* Colors */
-    --primary-color: #333333;
-    --secondary-color: #666666;
-    --accent-color: #0066cc;
-    --background-color: #ffffff;
-    --text-color: #333333;
-    --border-color: #e0e0e0;
-    
+
+    /* Colours */
+
+    --color-background: #ffffff;
+    --color-surface: #f8fafc;
+    --color-text: #111827;
+    --color-text-secondary: #6b7280;
+
+    --color-primary: #6366f1;
+    --color-primary-dark: #4f46e5;
+
+    --color-border: #e5e7eb;
+
+
     /* Typography */
-    --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    --font-size-base: 16px;
-    --line-height-base: 1.6;
-    
+
+    --font-main: "Inter", Arial, sans-serif;
+
+
     /* Spacing */
-    --spacing-xs: 0.25rem;
-    --spacing-sm: 0.5rem;
-    --spacing-md: 1rem;
-    --spacing-lg: 1.5rem;
-    --spacing-xl: 2rem;
-    --spacing-2xl: 3rem;
-    
-    /* Border Radius */
-    --radius-sm: 0.25rem;
-    --radius-md: 0.5rem;
-    --radius-lg: 1rem;
-    
+
+    --space-xs: 8px;
+    --space-sm: 16px;
+    --space-md: 32px;
+    --space-lg: 64px;
+    --space-xl: 96px;
+
+
+    /* Borders */
+
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+
+
     /* Shadows */
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+
+    --shadow-card:
+        0 10px 30px rgba(0,0,0,0.08);
+
 }

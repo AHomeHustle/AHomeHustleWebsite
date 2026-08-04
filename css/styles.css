@@ -403,7 +403,10 @@ p {
 
 @media (max-width: 900px) {
 
-    .process-grid {
+    .hero-grid,
+    .card-grid,
+    .process-grid,
+    .industry-grid {
 
         grid-template-columns: repeat(2, 1fr);
 
@@ -411,10 +414,12 @@ p {
 
 }
 
-
 @media (max-width: 600px) {
 
-    .process-grid {
+    .hero-grid,
+    .card-grid,
+    .process-grid,
+    .industry-grid {
 
         grid-template-columns: 1fr;
 

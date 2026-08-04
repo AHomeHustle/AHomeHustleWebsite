@@ -140,16 +140,6 @@
 />
 
 
-<text
-    x="225"
-    y="220"
-    font-family="Arial, sans-serif"
-    font-size="18"
-    fill="#6B7280">
-Excel
-</text>
-
-
 <path
     d="M230 310 C270 270 320 290 370 230"
     stroke="url(#mainGradient)"
@@ -201,14 +191,36 @@ Excel
 />
 
 
-<text
-    x="355"
-    y="430"
-    font-family="Arial, sans-serif"
-    font-size="18"
-    font-weight="700"
-    fill="#111827">
-Creators
+<!-- Creator avatars -->
+
+<circle
+    cx="375"
+    cy="420"
+    r="12"
+    fill="url(#mainGradient)"
+/>
+
+<path
+    d="M355 450
+       C355 432 395 432 395 450
+       Z"
+    fill="url(#mainGradient)"
+/>
+
+
+<circle
+    cx="425"
+    cy="420"
+    r="12"
+    fill="#8B5CF6"
+/>
+
+<path
+    d="M405 450
+       C405 432 445 432 445 450
+       Z"
+    fill="#8B5CF6"
+/>
 </text>
 
 

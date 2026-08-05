@@ -433,42 +433,6 @@ p {
 }
 
 /* =========================
-   Mobile Header
-========================= */
-
-@media (max-width: 600px) {
-
-    .site-header .container {
-
-        height: 80px;
-
-        justify-content: flex-start;
-
-    }
-
-
-    .main-nav {
-
-        display: none;
-
-    }
-
-     .industry-grid {
-
-        grid-template-columns: 1fr;
-
-    }
-
-
-    .industry-card {
-
-        width: 100%;
-
-    }
-
-}
-
-/* =========================
    CTA Section
 ========================= */
 
@@ -613,6 +577,8 @@ p {
 
     border: 1px solid var(--color-border);
 
+    min-width: 0;
+
     transition:
         transform .25s ease,
         box-shadow .25s ease;
@@ -735,5 +701,34 @@ footer a:hover {
     text-align: center;
 
     color: rgba(255,255,255,0.6);
+
+}
+
+/* =========================
+   Mobile Header
+========================= */
+
+@media (max-width: 600px) {
+
+    .site-header .container {
+
+        height: 80px;
+        justify-content: flex-start;
+
+    }
+
+
+    .main-nav {
+
+        display: none;
+
+    }
+
+
+    .logo span {
+
+        font-size: 0.9rem;
+
+    }
 
 }

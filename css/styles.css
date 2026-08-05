@@ -590,7 +590,6 @@ footer {
 
 }
 
-
 .footer-grid {
 
     display: grid;
@@ -603,15 +602,39 @@ footer {
 
 }
 
+/* Brand */
 
-.footer-logo {
+.footer-brand-header {
 
-    width: 56px;
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
 
     margin-bottom: 20px;
 
 }
 
+.footer-logo {
+
+    width: 56px;
+
+    height: 56px;
+
+    margin: 0;
+
+    flex-shrink: 0;
+
+}
+
+.footer-brand h3 {
+
+    margin: 0;
+
+    color: white;
+
+}
 
 .footer-brand p {
 
@@ -621,13 +644,13 @@ footer {
 
 }
 
+/* Links */
 
 footer h4 {
 
     margin-bottom: 20px;
 
 }
-
 
 footer ul {
 
@@ -639,7 +662,6 @@ footer ul {
 
 }
 
-
 footer a {
 
     color: rgba(255,255,255,0.7);
@@ -648,13 +670,11 @@ footer a {
 
 }
 
-
 footer a:hover {
 
     color: white;
 
 }
-
 
 .footer-bottom {
 
@@ -663,7 +683,6 @@ footer a:hover {
     padding: 24px 0;
 
 }
-
 
 .footer-bottom p {
 

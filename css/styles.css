@@ -431,7 +431,6 @@ p {
     }
 
 }
-
 /* =========================
    Mobile Header
 ========================= */
@@ -442,7 +441,7 @@ p {
 
         height: 80px;
 
-        justify-content: left;
+        justify-content: center;
 
     }
 

@@ -714,6 +714,14 @@ footer a:hover {
 
     }
 
+    .footer-brand-header {
+        justify-content: center;
+    }
+
+    .footer-brand {
+        text-align: center;
+    }
+
 }
 
 

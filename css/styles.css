@@ -453,6 +453,19 @@ p {
 
     }
 
+     .industry-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .industry-card {
+
+        width: 100%;
+
+    }
+
 }
 
 /* =========================

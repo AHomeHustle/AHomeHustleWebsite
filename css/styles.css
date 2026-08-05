@@ -401,37 +401,6 @@ p {
 
 }
 
-@media (max-width: 900px) {
-
-    .hero-grid,
-    .card-grid,
-    .process-grid,
-    .industry-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .footer-grid {
-
-        grid-template-columns: 1fr;
-
-        text-align: center;
-
-    }
-
-}
-
-@media (max-width: 600px) {
-
-    .hero-grid,
-    .card-grid,
-    .process-grid,
-    .industry-grid {
-
-        grid-template-columns: 1fr;
-
-    }
-
-}
-
 /* =========================
    CTA Section
 ========================= */
@@ -705,14 +674,48 @@ footer a:hover {
 }
 
 /* =========================
-   Mobile Header
+   Responsive Layout
 ========================= */
 
+@media (max-width: 900px) {
+
+    .hero-grid,
+    .card-grid,
+    .process-grid,
+    .industry-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .footer-grid {
+
+        grid-template-columns: 1fr;
+
+        text-align: center;
+
+    }
+
+}
+
+
 @media (max-width: 600px) {
+
+    .hero-grid,
+    .card-grid,
+    .process-grid,
+    .industry-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    /* Mobile Header */
 
     .site-header .container {
 
         height: 80px;
+
         justify-content: flex-start;
 
     }
@@ -728,6 +731,24 @@ footer a:hover {
     .logo span {
 
         font-size: 0.9rem;
+
+    }
+
+
+    /* Prevent industry cards overflowing */
+
+    .industry-grid {
+
+        width: 100%;
+
+    }
+
+
+    .industry-card {
+
+        width: 100%;
+
+        min-width: 0;
 
     }
 

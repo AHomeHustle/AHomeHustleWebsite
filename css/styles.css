@@ -431,13 +431,23 @@ p {
     }
 
 }
+
 /* =========================
    Mobile Header
 ========================= */
 
 @media (max-width: 600px) {
 
-    .site-header {
+    .site-header .container {
+
+        height: 80px;
+
+        justify-content: flex-start;
+
+    }
+
+
+    .main-nav {
 
         display: none;
 

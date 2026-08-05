@@ -438,11 +438,7 @@ p {
 
 @media (max-width: 600px) {
 
-    .site-header {
-        
-        background: red;
-        
-    } .container {
+    .site-header.container {
 
         height: auto;
 

@@ -401,7 +401,7 @@ p {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1024px) {
 
     .hero-grid,
     .card-grid,
@@ -427,6 +427,44 @@ p {
     .industry-grid {
 
         grid-template-columns: 1fr;
+
+    }
+
+}
+
+/* =========================
+   Mobile Header
+========================= */
+
+@media (max-width: 600px) {
+
+    .site-header .container {
+
+        height: auto;
+
+        padding: 20px 0;
+
+        flex-direction: column;
+
+        gap: 20px;
+
+    }
+
+
+    .main-nav ul {
+
+        flex-direction: column;
+
+        gap: 16px;
+
+        text-align: center;
+
+    }
+
+
+    .main-nav .button {
+
+        width: 100%;
 
     }
 

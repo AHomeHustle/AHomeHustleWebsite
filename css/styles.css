@@ -437,16 +437,7 @@ p {
 
 @media (max-width: 600px) {
 
-    .site-header .container {
-
-        height: 80px;
-
-        justify-content: center;
-
-    }
-
-
-    .main-nav {
+    .site-header {
 
         display: none;
 

@@ -438,35 +438,18 @@ p {
 
 @media (max-width: 600px) {
 
-    .site-header.container {
+    .site-header .container {
 
-        height: auto;
-
-        padding: 20px 0;
-
-        flex-direction: column;
+        height: 80px;
 
         justify-content: center;
 
-        gap: 20px;
-
     }
 
 
-    .main-nav ul {
+    .main-nav {
 
-        flex-direction: column;
-
-        align-items: center;
-
-        gap: 16px;
-
-    }
-
-
-    .main-nav .button {
-
-        width: 100%;
+        display: none;
 
     }
 
